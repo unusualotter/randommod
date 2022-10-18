@@ -1,6 +1,7 @@
 package net.unusualotter.randommod;
 
 import net.fabricmc.api.ModInitializer;
+import net.unusualotter.randommod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,6 +11,6 @@ public class RandomMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 }
