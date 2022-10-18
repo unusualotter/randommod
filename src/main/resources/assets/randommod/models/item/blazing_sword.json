@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "randommod:item/blazing_sword.png"
+    "layer0": "randommod:item/blazing_sword"
   }
 }
