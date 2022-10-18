@@ -1,29 +1,30 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "randommod",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Random Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "UnusualOtter"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/randommod/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.unusualotter.randommod.RandomMod"
+    ],
+    "client": [
+      "net.unusualotter.randommod.RandomModClient"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "randommod.mixins.json"
   ],
 
   "depends": {
